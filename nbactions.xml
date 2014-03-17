@@ -34,4 +34,11 @@
                 <exec.executable>${profiler.java}</exec.executable>
             </properties>
         </action>
+        <action>
+            <actionName>CUSTOM-Integration test project</actionName>
+            <displayName>Integration test project</displayName>
+            <goals>
+                <goal>verify</goal>
+            </goals>
+        </action>
     </actions>
