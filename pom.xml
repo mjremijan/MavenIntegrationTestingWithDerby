@@ -14,7 +14,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <ferris.property.test.data.user>sa</ferris.property.test.data.user>
-        <ferris.property.test.data.pass>as</ferris.property.test.data.pass>        
+        <ferris.property.test.data.pass>as</ferris.property.test.data.pass>
+        <ferris.property.test.data.driver>org.apache.derby.jdbc.ClientDriver</ferris.property.test.data.driver>   
+        <ferris.property.test.data.dialect>org.hibernate.dialect.DerbyDialect</ferris.property.test.data.dialect>     
         <ferris.property.test.data.db>test-data</ferris.property.test.data.db>
     </properties>
 
